@@ -1,11 +1,11 @@
 # constants for defining the author, title, etc.
 FILENAME = thesis
 TITLE = Diplomaterv sablon Markdown leírónyelven
-AUTHOR = Szárnyas Gábor
+AUTHOR = Thier Richárd
 ADVISOR = Konzulens Elemér
-UNIVERSITY = Budapesti Műszaki és Gazdaságtudományi Egyetem
-DEPARTMENT = Méréstechnika és Információs Rendszerek Tanszék
-RESEARCH_GROUP = Hibatűrő Rendszerek Kutatócsoport
+UNIVERSITY = Eötvös Lóránd Tudományegyetem
+DEPARTMENT = Programozási nyelvek és fordítóprogramok tanszék
+RESEARCH_GROUP = 
 THESIS_TYPE = Diplomaterv
 DOCUMENT_LANG = magyar
 BEFORE_FILE = guideline.md

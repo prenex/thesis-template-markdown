@@ -163,7 +163,7 @@ Mivel a fordítási folyamat során több lépésben oldódnak fel a szimbólumo
 
 Hogy a szövegbe ágyazott hivatkozások kinézetét demonstráljuk, itt most sorban meghivatkozzuk a [@Wettl04], [@Candy86], [@Lee87], [@KissPhD] és az [@Schreier00] forrásmunkát, valamint az [@DipPortal] weboldalt.
 
-Megjegyzendő, hogy az ékezetes magyar betűket is tartalmazó `.bib` fájl az `inputenc` csomaggal betöltött `latin2` betűkészlet miatt fordítható. Ugyanez a `.bib` fájl hibaüzenettel fordul egy olyan dokumentumban, ami nem tartalmazza a `\usepackage[latin2]{inputenc}` sort. Speciális igény esetén az irodalmi adatbázis általánosabb érvényűvé tehető, ha az ékezetes betűket speciális latex karakterekkel helyettesítjük a `.bib` fájlban, pl. á helyett `\'{a}`-t vagy ő helyett `\H{o}`-t írunk. 
+'teszt'
 
 A dolgozat szerkezete és a forrásfájlok
 ---------------------------------------
