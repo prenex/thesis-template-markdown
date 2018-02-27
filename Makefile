@@ -56,6 +56,8 @@ HTML_ARGS = \
 
 ## rules for compiling the document
 
+all: pdf html epub
+
 pdf: latex build-latex
 
 
