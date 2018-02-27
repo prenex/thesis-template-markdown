@@ -1,5 +1,5 @@
 \clearpage
 
-**Feladatkiírás**
+**Témabejelentő**
 
-A feladatkiírást a tanszéki adminisztrációban lehet átvenni, és a leadott munkába eredeti, tanszéki pecséttel ellátott és a tanszékvezető által aláírt lapot kell belefűzni (ezen oldal *helyett*, ez az oldal csak útmutatás). Az elektronikusan feltöltött dolgozatba már nem kell beleszerkeszteni ezt a feladatkiírást.
+Az elfogadott és aláírt témabejelentőt a dolgozat második oldalaként szükséges elhelyezni, amelyet az adminisztrációban lehet átvenni. Itt tehát már a tanszéki pecséttel ellátott és aláírt lapot kell belefűzni (ezen oldal *helyett*, ez az oldal csak útmutatás). Az elektronikusan feltöltött dolgozatba már nem szabad beleszerkeszteni ezt a feladatkiírást.
