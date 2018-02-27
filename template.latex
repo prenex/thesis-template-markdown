@@ -74,7 +74,8 @@ $if(listings)$
 \usepackage{listings}
 $endif$
 $if(lhs)$
-\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
+% TODO: Set your own coding language here!
+\lstnewenvironment{code}{\lstset{language=C++,basicstyle=\small\ttfamily}}{}
 $endif$
 $if(highlighting-macros)$
 $highlighting-macros$
@@ -170,7 +171,7 @@ $endif$
 \setlength{\parindent}{12pt}
 \setlength{\parskip}{0pt}
 
-\marginsize{35mm}{25mm}{15mm}{15mm} % anysize package
+\marginsize{35mm}{25mm}{25mm}{25mm} % anysize package
 \setcounter{secnumdepth}{0}
 \sectionfont{\large\upshape\bfseries}
 \setcounter{secnumdepth}{3}
@@ -179,13 +180,6 @@ $endif$
 
 
 \begin{document}
-
-\footnotesize
-
-$for(include-before)$
-$include-before$
-
-$endfor$
 
 \normalsize
 
@@ -204,17 +198,23 @@ $endfor$
 \vspace{0.4cm}
 {\huge \bfseries $title$}\\[0.8cm]
 \vspace{0.5cm}
-\textsc{\Large $thesis-type$}\\[4cm]
+\textsc{\Large $thesis-type$}\\[3cm]
 
 \begin{tabular}{cc}
- \makebox[7cm]{\emph{Készítette}} & \makebox[7cm]{\emph{Konzulens}} \\
- \makebox[7cm]{$author$} & \makebox[7cm]{$advisor$}
+ \makebox[7cm]{\emph{Témavezető}} & \makebox[7cm]{\emph{Készítette}} \\
+ \makebox[7cm]{$advisor$} & \makebox[7cm]{$author$} \\
+ \makebox[7cm]{$advisortitle$} & \makebox[7cm]{$major$}
 \end{tabular}
 
 \vfill
 {\large \today}
 \end{center}
 \end{titlepage}
+
+$for(include-before)$
+$include-before$
+
+$endfor$
 
 \onehalfspacing
 
@@ -224,32 +224,6 @@ $endfor$
 
 \vfill
 \clearpage
-
-\begin{center}
-\large
-\textbf{HALLGATÓI NYILATKOZAT}\\
-\end{center}
-
-Alulírott \emph{$author$}, szigorló hallgató kijelentem, hogy ezt a diplomatervet meg nem engedett segítség nélkül, saját magam készítettem, csak a megadott forrásokat (szakirodalom, eszközök stb.) használtam fel. Minden olyan részt, melyet szó szerint, vagy azonos értelemben, de átfogalmazva más forrásból átvettem, egyértelműen, a forrás megadásával megjelöltem.
-
-Hozzájárulok, hogy a jelen munkám alapadatait (szerző(k), cím, angol és magyar nyelvű tartalmi kivonat, készítés éve, konzulens(ek) neve) a BME VIK nyilvánosan hozzáférhető elektronikus formában, a munka teljes szövegét pedig az egyetem belső hálózatán keresztül (vagy autentikált felhasználók számára) közzétegye. Kijelentem, hogy a benyújtott munka és annak elektronikus verziója megegyezik. Dékáni engedéllyel titkosított diplomatervek esetén a dolgozat szövege csak 3 év eltelte után válik hozzáférhetővé.
-
-\begin{flushleft}
-\vspace*{1cm}
-Budapest, \today
-\end{flushleft}
-
-\begin{flushright}
- \vspace*{1cm}
- \makebox[7cm]{\rule{6cm}{.4pt}}\\
- \makebox[7cm]{\emph{$author$}}\\
- \makebox[7cm]{hallgató}
-\end{flushright}
-\thispagestyle{empty}
-
-\vfill
-\clearpage
-\thispagestyle{empty} % an empty page
 
 $body$
 

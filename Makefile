@@ -1,12 +1,14 @@
 # constants for defining the author, title, etc.
 FILENAME = thesis
 TITLE = Diplomaterv sablon Markdown leírónyelven
-AUTHOR = Thier Richárd
+AUTHOR = Thier Richárd István
+MAJOR = Programtervező Informatikus MSc
 ADVISOR = Konzulens Elemér
+ADVISOR_TITLE = Doktorandusz hallgató
 UNIVERSITY = Eötvös Lóránd Tudományegyetem
 DEPARTMENT = Programozási nyelvek és fordítóprogramok tanszék
 RESEARCH_GROUP = 
-THESIS_TYPE = Diplomaterv
+THESIS_TYPE = Diplomamunka
 DOCUMENT_LANG = magyar
 BEFORE_FILE = guideline.md
 SOURCE_FILES = abstract.md chapter1.md chapter2.md chapter3.md chapter4.md summary.md acknowledgements.md bibliography.md
@@ -19,7 +21,9 @@ ARGS = \
 	--variable=lang:"$(DOCUMENT_LANG)" \
 	--variable=title:"$(TITLE)" \
 	--variable=author:"$(AUTHOR)" \
+	--variable=major:"$(MAJOR)" \
 	--variable=advisor:"$(ADVISOR)" \
+	--variable=advisortitle:"$(ADVISOR_TITLE)" \
 	--variable=university:"$(UNIVERSITY)" \
 	--variable=department:"$(DEPARTMENT)" \
 	--variable=research-group:"$(RESEARCH_GROUP)" \
@@ -126,7 +130,7 @@ compile-appendix-html:
 ## misc rules
 
 open:
-	gnome-open \
+	evince \
 		$(FILENAME).pdf \
 
 clean:
