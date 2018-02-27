@@ -74,7 +74,7 @@ $if(listings)$
 \usepackage{listings}
 $endif$
 $if(lhs)$
-% TODO: Set your own coding language here!
+% TODO: Set your own default coding language here!
 \lstnewenvironment{code}{\lstset{language=C++,basicstyle=\small\ttfamily}}{}
 $endif$
 $if(highlighting-macros)$
