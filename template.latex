@@ -216,6 +216,9 @@ $include-before$
 
 $endfor$
 
+% Set the table of contents to (re)start the page numbering!
+\setcounter{page}{0}
+
 \onehalfspacing
 
 \hypersetup{linkcolor=black}

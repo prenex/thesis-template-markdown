@@ -11,10 +11,10 @@ Tested on Ubuntu Linux 16.04 with pandoc 1.16.0.2 and texlive (1.2).
 With this template I have the following plan personally:
 
 * OK: Clear it up, so that it builds on my machine
-* WIP: Make the fork support ELTE university so that it can be used as a markdown base for ELTE thesis (and tech paper) writing
-* TODO: Fork this into my thesis - then add that as a submodule into the source code for my Turul system as its documentation.
+* OK: Make the fork support ELTE university so that it can be used as a markdown base for ELTE thesis (and tech paper) writing
+* WIP: Fork this into my thesis - then add that as a submodule into the source code for my Turul system as its documentation.
 
-**Rem.: Currently there is a lot of BME content still in the text!**
+Current state TL;DR: Complete conversion for ELTE-IK MSc thesis documents are quite finished as of now!
 
 After that there will be a working example but I think I will lose interest in the base template unless I actively use it.
 It is very much free to fork however and start your own things.
@@ -42,6 +42,6 @@ After trying this on the 16.04 and the named software version I have found mysel
   git clone https://github.com/prenex/thesis-template-markdown.git
   ```
   
-* Use `make pdf`, `make html`, `make epub` to generate the thesis in your desired output format.
+* Use `make all` `make pdf`, `make html`, `make epub` to generate the thesis in your desired output format.
 
 Rem.: Mostly I only test pdf however because I do not have endless time ;-)
